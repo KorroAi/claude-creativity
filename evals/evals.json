@@ -1,0 +1,23 @@
+{
+  "skill_name": "claude-creativity",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I'm building a mobile app that helps people track their daily habits. I want to make it stand out from the 50 other habit tracker apps. What should I do differently?",
+      "expected_output": "3+ creative breakthrough ideas with the signature cherry-blossom block, using techniques like inversion or forced-analogies. Ideas should be non-obvious and elegant, not generic differentiation advice.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "My team has been stuck on the same architecture problem for 3 days. We're building a real-time collaboration feature and can't decide between CRDTs and operational transforms. No matter what we pick, someone has a good objection. Help us break through.",
+      "expected_output": "Creative breakthroughs that reframe the problem using first-principles or reversal. Should question the assumption that we must choose between two options. Signature cherry-blossom block present.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I need to name my new open-source project. It's a CLI tool that automatically finds and removes dead code from JavaScript projects. I want something memorable, not boring like 'dead-code-remover'.",
+      "expected_output": "3+ memorable, clever name ideas using forced-analogies technique. Names should be distinct and evocative, not generic compound words. Signature cherry-blossom block present.",
+      "files": []
+    }
+  ]
+}
