@@ -2,15 +2,13 @@
 
 <img src="assets/illustration.png" alt="Claude Creativity" width="100%">
 
-
-
 ## What it is
 
 Claude Creativity is a skill for [Claude Code](https://claude.ai/claude-code) that transforms Claude from a helpful assistant into a true creative partner. It does not just surface ideas. It hunts for the ones you never could have come up with yourself.
 
 You know the feeling when you are brainstorming something and every idea that comes up feels like a variation on something you have already seen? This skill was built to break that cycle. It draws from ten distinct creative techniques, each one a different angle of attack, and applies them rigorously to whatever you are working on.
 
-The result lands at the bottom of Claude's response in a signature block that is impossible to miss: a cherry blossom, unicode borders, sharp one-liners, and a quick "why it is clever" for each idea. No filler. No corporate-speak. No hedging. Just breakthroughs.
+The result lands at the bottom of Claude's response: sharp one liners, a quick explanation of why each idea is clever, and a clean visual signature that is impossible to miss. No filler. No corporate speak. No hedging. Just breakthroughs.
 
 ## How it works
 
@@ -20,9 +18,9 @@ The skill runs through four stages on every relevant response.
 
 **2. Technique selection.** The skill picks one or two techniques from its arsenal of ten, based on the type of problem you are facing. Architecture problems get first principles and reversal. Design and naming gets forced analogies and conceptual combination. When you are truly stuck, it reaches for lateral thinking, provocation, or random stimulus.
 
-**3. Idea generation.** This is where the real work happens. The selected techniques are applied systematically, generating ideas from angles you would not normally consider. Each idea goes through a quality gate with three rejection filters: "Could the user have thought of this alone?", "Is this merely surprising but not useful?", "Is this a lukewarm variation of a known solution?" Only ideas that pass all three deserve the creative block.
+**3. Idea generation.** This is where the real work happens. The selected techniques are applied systematically, generating ideas from angles you would not normally consider. Each idea goes through a quality gate with three rejection filters: "Could the user have thought of this alone?", "Is this merely surprising but not useful?", "Is this a lukewarm variation of a known solution?" Only ideas that pass all three make it through.
 
-**4. Output.** The breakthroughs appear at the end of Claude's response in the signature cherry blossom block. They are sharp, one-sentence insights with a single line explaining the clever angle underneath. No fluff, no technique labels, no hedging.
+**4. Output.** The breakthroughs appear at the end of Claude's response in a clean, simple format. Sharp one sentence insights with a single line explaining the clever angle underneath. No fluff, no technique labels, no hedging.
 
 ## The ten techniques
 
@@ -57,55 +55,37 @@ If you want it active in every session, it should live in your user skills direc
 
 You do not need to do anything special. Just talk to Claude normally. The skill watches for creative contexts and activates on its own.
 
-A session might go like this.
-
 You say: "I am building a CLI tool that finds and removes dead code from JavaScript projects. I need a name that people will remember."
 
 Claude responds with ideas, drawn from the forced analogies and conceptual combination techniques. The response ends with:
 
 ```
-╭─ 🌸 𝙲𝚁𝙴𝙰𝚃𝙸𝚅𝙸𝚃𝚈 𝙱𝚁𝙴𝙰𝙺𝚃𝙷𝚁𝙾𝚄𝙶𝙷𝚂 ─────────────────────╮
-│                                                          │
-│  1. "Prune" — because it evokes gardening, not garbage.  │
-│     Dead code isn't trash, it's overgrowth. You're       │
-│     tending a codebase, not cleaning a landfill.          │
-│     🎯 Why it's clever: The gardening metaphor            │
-│        reframes code maintenance from a chore into        │
-│        cultivation. It feels professional, not punitive.  │
-│                                                          │
-│  2. "Echo" — because the tool finds what's not           │
-│     there. Dead code leaves no trace of use.              │
-│     🎯 Why it's clever: Naming a removal tool after       │
-│        something subtle and auditory creates mystery.     │
-│        People remember names they have to think about.    │
-│                                                          │
-│  3. "Dust" — one syllable, impossible to forget.         │
-│     Like dust settling on unused shelves.                │
-│     🎯 Why it's clever: The shortest possible name        │
-│        in a sea of multi-word CLI tools. It also          │
-│        implies something that accumulates naturally,      │
-│        which dead code absolutely does.                   │
-│                                                          │
-╰──────────────────────────────────────────────────────────╯
+💡 CREATIVE BREAKTHROUGHS
+
+1. "Prune" — because it evokes gardening, not garbage collection.
+   Dead code isn't trash, it's overgrowth. You're tending a codebase.
+   Why it works: The gardening metaphor reframes maintenance from
+   a chore into cultivation. It feels professional, not punitive.
+
+2. "Echo" — because the tool finds what's not there anymore.
+   Dead code leaves no trace of use, only the silence where it was.
+   Why it works: Naming a removal tool after something subtle and
+   auditory creates mystery. People remember names they think about.
+
+3. "Dust" — one syllable, impossible to forget.
+   Like dust settling on unused shelves.
+   Why it works: The shortest name in a sea of multi-word CLI tools.
+   It implies something that accumulates naturally, which dead code
+   absolutely does.
 ```
 
-The block always uses the unicode corner characters, the cherry blossom marker, the small caps header text, and the target markers on the "why it is clever" lines. This is the signature. Once you have seen it a few times, you will recognize it before you even read a word.
-
-## The output format
-
-Every creative block follows the same structure.
-
-The header is framed with unicode box-drawing characters and marked with a cherry blossom. Inside, each breakthrough gets a number, a single sharp sentence describing the idea, and a target marker with one line explaining the clever angle. The number of ideas varies with the situation but never drops below three.
-
-The ideas are not labeled with the technique that generated them. The technique is invisible to the reader. The ideas stand on their own.
-
-The block sits at the very end of Claude's response, after the normal answer. It is additive, never a replacement. You get the helpful answer you were expecting, and then you get the breakthroughs you were not.
+The format is clean and simple. A lightbulb emoji header, numbered breakthroughs, and a one line explanation of why each idea works. Once you have seen it a few times, you recognize it before you even read a word.
 
 ## What makes it different
 
-Most AI creativity tools are prompt-based. You ask for ideas. The model generates ideas. The quality depends entirely on how good your prompt was and how lucky the model is feeling.
+Most AI creativity tools are prompt based. You ask for ideas. The model generates ideas. The quality depends entirely on how good your prompt was and how lucky the model is feeling.
 
-Claude Creativity is structural. It does not just say "be more creative." It loads a specific creative persona, matches techniques to problem types, applies rigorous methods from the creativity research literature, and filters results through a quality gate that would make a journal editor proud. The ideas are not just the model being creative. They are the model being creative inside a system designed to maximize creative output.
+Claude Creativity is structural. It does not just say "be more creative." It loads a specific creative persona, matches techniques to problem types, applies rigorous methods from the creativity research literature, and filters results through a quality gate. The ideas are not just the model being creative. They are the model being creative inside a system designed to maximize creative output.
 
 The techniques are not AI inventions. They come from decades of research on human creativity: Edward de Bono's lateral thinking, the provocation operation (PO), first principles reasoning from physics, inversion from stoic philosophy and modern strategy, conceptual combination from cognitive science. The skill brings all of this to bear on your problem, systematically, every time.
 
@@ -139,6 +119,6 @@ The skill is designed to be extended. Adding a new technique means creating a ne
 
 ---
 
-Built for [Claude Code](https://claude.ai/claude-code). The cherry blossom block is the signature. If you see it, you know Claude Creativity is working.
+Built for [Claude Code](https://claude.ai/claude-code).
 
 [GitHub: KorroAi/claude-creativity](https://github.com/KorroAi/claude-creativity)
