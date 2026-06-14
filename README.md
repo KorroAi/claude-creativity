@@ -1,35 +1,4 @@
-# claude-creativity
-
-```
-╭─ 🌸 𝙲𝚁𝙴𝙰𝚃𝙸𝚅𝙸𝚃𝚈 𝙱𝚁𝙴𝙰𝙺𝚃𝙷𝚁𝙾𝚄𝙶𝙷𝚂 ─────────────────────╮
-│                                                          │
-│  1. Claude Creativity breaks Claude out of its            │
-│     predictable safety patterns and into flashes of       │
-│     genuine creative brilliance.                          │
-│     🎯 Why it's clever: It uses the same techniques       │
-│        that human creative geniuses have relied on        │
-│        for decades — lateral thinking, first principles,  │
-│        inversion — but applies them systematically        │
-│        through an AI that never gets tired or lazy.       │
-│                                                          │
-│  2. The quality gate rejects ideas the user could have    │
-│     thought of on their own. If it passes the filter,     │
-│     it means the idea surprised both Claude AND you.      │
-│     🎯 Why it's clever: Most AI creativity tools just     │
-│        remix patterns from training data. This one has    │
-│        a rejection filter that demands genuine novelty    │
-│        relative to the specific user's situation.         │
-│                                                          │
-│  3. Always ready, never intrusive. The skill silently     │
-│     judges whether your conversation deserves creative    │
-│     input, and stays quiet when you just need a quick     │
-│     factual answer.                                       │
-│     🎯 Why it's clever: Creativity on demand works        │
-│        because the detection is contextual, not manual.   │
-│        You don't have to remember to "turn it on."        │
-│                                                          │
-╰──────────────────────────────────────────────────────────╯
-```
+![Uploading Gemini_Generated_Image_7xj4th7xj4th7xj4.png…]()
 
 ## What it is
 
