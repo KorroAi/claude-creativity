@@ -1,3 +1,7 @@
+# claude-creativity
+
+<img src="assets/illustration.png" alt="Claude Creativity" width="100%">
+
 
 
 ## What it is
