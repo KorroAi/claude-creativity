@@ -10,19 +10,36 @@ You know the feeling when you are brainstorming something and every idea that co
 
 The result lands at the bottom of Claude's response: sharp one liners, a quick explanation of why each idea is clever, and a clean visual signature that is impossible to miss. No filler. No corporate speak. No hedging. Just breakthroughs.
 
+## What's new
+
+**Intensity slider** — `/creative-claude 0.3` to `1.0`. Subtle touches (2-3 ideas) to radical breakthroughs (5-7+ ideas).
+
+**Output styles** — `--style minimal|detailed|cards`. Plain list, execution-ready, or playing card format.
+
+**Drunk fusion mode** — `--drunk` flag merges with Drunk Claude. Creativity sharpness + drunk chaos = 🌸🍺.
+
+**5 new techniques** (15 total, up from 10):
+- **Oblique Strategies** — Brian Eno style random creative prompts
+- **Negative Space** — What's MISSING, not what's there
+- **Time Travel** — What would 2016-you do? What would 2036 force?
+- **Role Swap** — How would a chef / child / alien solve this?
+- **Synthesis** — Combine two competing ideas into a third thing
+
 ## How it works
 
-The skill runs through four stages on every relevant response.
+The skill runs through five stages on every relevant response.
+
+**0. Intensity detection.** The skill checks if you've set an intensity level (0.1-1.0) and output style. Defaults to 0.5 Inspired.
 
 **1. Context detection.** Before Claude says anything, the skill evaluates whether your conversation qualifies for creative input. Brainstorming a new feature? Yes. Designing architecture? Yes. Stuck on a problem for three days? Absolutely yes. Asking for the time in Tokyo? No. The detection is automatic and invisible to you.
 
-**2. Technique selection.** The skill picks one or two techniques from its arsenal of ten, based on the type of problem you are facing. Architecture problems get first principles and reversal. Design and naming gets forced analogies and conceptual combination. When you are truly stuck, it reaches for lateral thinking, provocation, or random stimulus.
+**2. Technique selection.** The skill picks one or two techniques from its arsenal of 15, based on the type of problem you are facing. Architecture problems get first principles, reversal, and time travel. Design and naming gets forced analogies, combination, and role swap. When you are truly stuck, it reaches for lateral thinking, provocation, oblique strategies, or random stimulus. At Radical intensity (0.7+), it combines 2-3 techniques.
 
-**3. Idea generation.** This is where the real work happens. The selected techniques are applied systematically, generating ideas from angles you would not normally consider. Each idea goes through a quality gate with three rejection filters: "Could the user have thought of this alone?", "Is this merely surprising but not useful?", "Is this a lukewarm variation of a known solution?" Only ideas that pass all three make it through.
+**3. Idea generation.** This is where the real work happens. The selected techniques are applied systematically, generating ideas from angles you would not normally consider. Count varies by intensity: 2-3 (Subtle), 3-5 (Inspired), 5-7+ (Radical). Each idea goes through a quality gate with three rejection filters: "Could the user have thought of this alone?", "Is this merely surprising but not useful?", "Is this a lukewarm variation of a known solution?" Only ideas that pass all three make it through.
 
-**4. Output.** The breakthroughs appear at the end of Claude's response in a clean, simple format. Sharp one sentence insights with a single line explaining the clever angle underneath. No fluff, no technique labels, no hedging.
+**4. Output.** The breakthroughs appear at the end of Claude's response in your chosen style. Default: clean numbered list with 💡 header and one-line insight explanations. Detailed: adds "How to execute" and "Risk" per idea. Cards: playing card format with suits (♠ Strategy ♥ Design ♦ Tech ♣ Wild). Drunk fusion: 🌸🍺 combined block.
 
-## The ten techniques
+## The fifteen techniques
 
 | Technique | What it does | Best for |
 |---|---|---|
@@ -36,6 +53,11 @@ The skill runs through four stages on every relevant response.
 | What If Scenarios | Explores counterfactual scenarios to discover hidden assumptions and unexpected opportunities | Strategic planning, scenario analysis, and preparing for unlikely but impactful events |
 | Assumption Reversal | Identifies and flips every unexamined assumption about the problem, one by one | Any domain where conventional wisdom has gone unchallenged for too long |
 | Random Stimulus | Uses a random word or image as a starting point and builds connections to your problem through free association | Creative blocks, ideation sessions, and moments where you need an idea but have no starting point |
+| **Oblique Strategies** ✨ | Draws from Brian Eno's card deck — random creative constraints that force perspective shifts | When every idea feels like a variation of the same thing |
+| **Negative Space** ✨ | Maps what IS there, then builds from what ISN'T — the gaps nobody's filling | Critique, reframe, finding blue ocean opportunities |
+| **Time Travel** ✨ | Solves the problem as if it were 2016, then as if it were 2036 — extracts the timeless insight | Short-term thinking traps, architecture decisions |
+| **Role Swap** ✨ | Embodies a completely different role (chef, child, alien, musician) and solves from their worldview | When expertise has become a blindfold |
+| **Synthesis** ✨ | Takes two competing ideas and finds the third thing — not A, not B, not compromise | Team split between two approaches, false dichotomies |
 
 Each technique has its own reference file in `references/techniques/` with a deeper breakdown of the method, when to use it, and a concrete example.
 
@@ -96,6 +118,7 @@ claude-creativity/
   SKILL.md                   The main skill definition and workflow
   references/
     persona.md               The creative genius persona that Claude embodies
+    drunk-fusion.md          How to merge with Drunk Claude
     techniques/
       lateral-thinking.md    De Bono lateral thinking
       first-principles.md    First principles reasoning
@@ -107,6 +130,11 @@ claude-creativity/
       what-if.md             Counterfactual scenarios
       reversal.md            Assumption reversal
       random-stimulus.md     Random stimulus injection
+      oblique-strategies.md  Brian Eno style random prompts (NEW)
+      negative-space.md      What's missing, not what's there (NEW)
+      time-travel.md         10 years ago / 10 years ahead (NEW)
+      role-swap.md           How would X solve this (NEW)
+      synthesis.md           Combine ideas into a third thing (NEW)
   evals/
     evals.json               Test cases for verification
 ```
