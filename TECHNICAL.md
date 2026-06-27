@@ -2,9 +2,9 @@
 
 ## Structured Creativity Injection for Large Language Models
 
-**Authors:** KORRO Research
+**Authors:** Korrocorp Research
 **Date:** June 2026
-**Repository:** [KorroAi/claude-creativity](https://github.com/KorroAi/claude-creativity)
+**Repository:** [Korrocorp/claude-creativity](https://github.com/Korrocorp/claude-creativity)
 **License:** MIT
 
 ---
