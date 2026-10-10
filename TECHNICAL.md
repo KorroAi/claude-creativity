@@ -4,7 +4,7 @@
 
 **Authors:** Korrocorp Research
 **Date:** June 2026
-**Repository:** [Korrocorp/claude-creativity](https://github.com/Korrocorp/claude-creativity)
+**Repository:** [Korrocorp/claude-creativity](https://github.com/KorroAi/claude-creativity)
 **License:** MIT
 
 ---
