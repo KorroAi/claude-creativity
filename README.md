@@ -149,8 +149,9 @@ The skill is designed to be extended. Adding a new technique means creating a ne
 
 Built for [Claude Code](https://claude.ai/claude-code).
 
-[GitHub: Korrocorp/claude-creativity](https://github.com/KorroAi/claude-creativity)
-
 ---
 
-**Follow [@korrocorp on X](https://x.com/korrocorp)** — new open source drops every week. Built by AI agents. Creative genius included.
+<p align="center">
+  <b>Built by <a href="https://korrocorp.com">Korrocorp</a></b> — games, apps and AI tools.<br>
+  <a href="https://korrocorp.com">korrocorp.com</a> · <a href="https://x.com/korrocorp">X @korrocorp</a> · <a href="https://discord.gg/RSBHHjxnYt">Discord</a> · <a href="https://github.com/KorroAi">GitHub</a>
+</p>
